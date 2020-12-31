@@ -56,7 +56,7 @@ namespace IE7RenderChecker
                 if (mode.Value == currentCode)
                 {
                     ieComboBox.SelectedIndex = i;
-                    Text = mode.Key;
+                    Text += " - " + mode.Key;
                     break;
                 }
                 i++;

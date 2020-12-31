@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IE7RenderChecker", "IE7RenderChecker\IE7RenderChecker.csproj", "{F63C83C9-6D85-4A8A-9C08-B2120E3F918A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IE7RenderChecker", "IE7RenderChecker\IE7RenderChecker.csproj", "{117F39E7-C810-4D1F-9C13-751840B25932}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F63C83C9-6D85-4A8A-9C08-B2120E3F918A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F63C83C9-6D85-4A8A-9C08-B2120E3F918A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F63C83C9-6D85-4A8A-9C08-B2120E3F918A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F63C83C9-6D85-4A8A-9C08-B2120E3F918A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{117F39E7-C810-4D1F-9C13-751840B25932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{117F39E7-C810-4D1F-9C13-751840B25932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{117F39E7-C810-4D1F-9C13-751840B25932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{117F39E7-C810-4D1F-9C13-751840B25932}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {5BAA2E5B-948C-41A4-A5FC-23B6BF1BF72D}
+		SolutionGuid = {14029760-B331-41DD-91F2-CE648392B2E3}
 	EndGlobalSection
 EndGlobal

@@ -50,6 +50,11 @@ namespace IE7RenderChecker
             }
 
             int currentCode = (int)GetRegValue(exe, browserEmulationSubKey);
+            if(currentCode == 0)
+            {
+                currentCode = 7000;
+                SetRegValue(exe, currentCode, browserEmulationSubKey);
+            }
             int i = 0;
             foreach (var mode in ieModes)
             {
@@ -153,6 +158,8 @@ namespace IE7RenderChecker
             catch (Exception ex) { }
 
             regKey.Close();
+            if (ret == null)
+                ret = 0;
             return ret;
         }
 

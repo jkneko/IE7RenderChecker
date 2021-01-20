@@ -21,16 +21,16 @@ jobs:
 
     - run: nuget restore IE7RenderChecker.sln
 
-    - name: Build
+    - name: Build Exe
       run: msbuild IE7RenderChecker.sln /t:Rebuild /p:Configuration=Release /p:Platform='Any CPU'
+
+    - name: Build Installer
+      run: makensis installer.nsi
     
-    - name: zip
-      run: Compress-Archive -DestinationPath IE7RenderChecker-${{ github.sha }}.zip -Path IE7RenderChecker/bin/Release/
-      
     - name: Upload artifact
       uses: actions/upload-artifact@v2
       with:
-        name: IE7RenderChecker-${{ github.sha }}
-        path: IE7RenderChecker-${{ github.sha }}.zip
+        name: IE7RenderChecker
+        path: IE7RenderChecker*.exe
 
 
